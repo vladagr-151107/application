@@ -1,0 +1,98 @@
+:root {
+  --link-color: #00191f;
+  --header-color: #122543;
+  --background-color: #6d94c4;
+  --link-background-color: white;
+}
+body {
+  font-family: "Unna", serif;
+  background-color: var(--background-color);
+}
+h1 {
+  font-size: 60px;
+  color: var(--header-color);
+}
+h2 {
+  font-size: 45px;
+  color: var(--header-color);
+}
+div {
+  text-align: center;
+}
+p {
+  font-size: 25px;
+}
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+.contact-link {
+  background-color: var(--link-background-color);
+  color: var(--link-color);
+  box-shadow: 0 5px 10px var(--link-color);
+}
+.about-link {
+  background-color: var(--link-color);
+  color: var(--link-background-color);
+  box-shadow: 0 2px 6px var(--link-background-color);
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.links a {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.back {
+  color: var(--link-color);
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+#about-h {
+  margin-top: 10px;
+  color: var(--link-background-color);
+  text-shadow: 0 5px 10px var(--link-color);
+}
+.info {
+  display: flex;
+  margin: 30px 0;
+}
+.info p {
+  margin: 20px;
+}
+.mail {
+  color: var(--link-color);
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+}
+.mail:hover {
+  text-decoration: underline;
+}
+.nav-link {
+  color: var(--header-color);
+  font-size: 19px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.navbar-brand {
+  font-size: 21px;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--link-color);
+  box-shadow: 0 2px 6px var(--link-background-color);
+  color: white;
+}
