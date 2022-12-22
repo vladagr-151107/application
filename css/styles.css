@@ -102,3 +102,17 @@ a {
 .photo{
   max-width: 350px;
 }
+.about-me{
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+.about-me-name{
+  font-size: 40px;
+}
+h3{
+  font-size: 30px;
+}
+li{
+  font-size: 20px;
+}
