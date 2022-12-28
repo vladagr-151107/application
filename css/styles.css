@@ -138,3 +138,11 @@ li{
 .contacts-link{
   margin-top: 10px;
 }
+@media(max-width:1200px){
+  .fa-brands{
+    width: 250px;
+  }
+}
+header .navg:hover{
+  text-decoration: underline ;
+}
