@@ -142,3 +142,12 @@ li{
 header .navg:hover{
   text-decoration: underline ;
 }
+.navig{
+  font-family: "Times New Roman", Times, serif;
+}
+.inline{
+  color: var(--link-color);
+}
+.inline:hover{
+  color: var(--link-background-color);
+}
