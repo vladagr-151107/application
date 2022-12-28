@@ -69,7 +69,8 @@ a {
   margin-top: -15px;
 }
 .mail:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: var(--link-background-color);
 }
 .nav-link {
   color: var(--header-color);
@@ -137,11 +138,6 @@ li{
 }
 .contacts-link{
   margin-top: 10px;
-}
-@media(max-width:1200px){
-  .fa-brands{
-    width: 250px;
-  }
 }
 header .navg:hover{
   text-decoration: underline ;
